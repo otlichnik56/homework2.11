@@ -1,9 +1,10 @@
 package pro.sky.demoonlinestore;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public interface ShoppingServiceImp {
-    void addProducts(Integer idProduct);
+    void addProducts(List<Integer> idProduct);
 
-    ArrayList<Integer> getProducts();
+    List<Integer> getProducts();
 }
